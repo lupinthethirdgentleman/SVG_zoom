@@ -1,0 +1,176 @@
+#body_svg {
+  zoom: 50%;
+  transition: transform 4s;
+  transform-origin:top left;
+  /* animation: zoomin 5s; */
+}
+
+#network {
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white; /* Green */
+  border: none;
+  background-color: #555555;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  transition-duration: 0.4s;
+  cursor: pointer;  
+}
+
+
+#network:hover {
+  color: #555555;
+  background-color: white;
+}
+
+.body_svg {
+    /* background-image: url("../wkda.PNG"); */
+    /* background-size:cover; */
+    /* max-width: 100%; */
+    /* margin-top: 300px; */
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    /* zoom : 50%; */
+}
+
+.alaska_icon {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+}
+
+.div_pb {
+  top: 90px;
+  left: 1790px;
+  background-image: url("../svg/remote_site_icon.svg");
+}
+
+.div_nome {
+  top: 450px;
+  left: 1310px;
+  background-image: url("../svg/remote_site_icon.svg");
+}
+
+.div_fairbanks {
+  top: 460px;
+  left: 1960px;
+  background-image: url("../svg/remote_site_icon.svg");
+}
+
+.div_bethel {
+  top: 860px;
+  left: 1330px;
+  background-image: url("../svg/remote_site_icon.svg");
+}
+
+.div_anchorage {
+  top: 800px;
+  left: 1800px;
+  height: 140px;
+  width: 140px;
+  background-image: url("../svg/datacenter.svg");
+  position: absolute;
+}
+
+.div_juneau {
+  top: 1050px;
+  left: 2500px;
+  background-image: url("../svg/remote_site_icon.svg");
+}
+
+.div_pb1 {
+  top: 20px;
+  left: 1670px;
+  width: 260px;
+  height: 190px;
+  background-image: url("../svg/remote_site.svg");
+  position: absolute;
+  background-size: cover;
+}
+
+.div_nome1 {
+  top: 370px;
+  left: 1210px;
+  width: 260px;
+  height: 190px;
+  background-image: url("../svg/remote_site.svg");
+  position: absolute;
+  background-size: cover;
+}
+
+.div_fairbanks1 {
+  top: 400px;
+  left: 1830px;
+  width: 260px;
+  height: 190px;
+  background-image: url("../svg/remote_site.svg");
+  position: absolute;
+  background-size: cover;
+}
+
+.div_bethel1 {
+  top: 800px;
+  left: 1270px;
+  width: 260px;
+  height: 190px;
+  background-image: url("../svg/remote_site.svg");
+  position: absolute;
+  background-size: cover;
+}
+
+.div_anchorage1 {
+  top: 730px;
+  left: 1700px;
+  width: 360px;
+  height: 295px;
+  background-image: url("../svg/anchorage.svg");
+  position: absolute;
+  background-size: cover;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.div_juneau1 {
+  top: 1010px;
+  left: 2400px;
+  width: 260px;
+  height: 190px;
+  background-image: url("../svg/remote_site.svg");
+  position: absolute;
+  background-size: cover;
+}
+
+.div_juneau1:hover {
+  transform: scale(2.5);
+  transition: transform 1s;
+}
+
+.div_anchorage1:hover {
+  transform: scale(2.5);
+  transition: transform 1s;
+}
+
+.div_bethel1:hover {
+  transform: scale(2.5);
+  transition: transform 1s;
+}
+
+.div_fairbanks1:hover {
+  transform: scale(2.5);
+  transition: transform 1s;
+}
+
+.div_nome1:hover {
+  transform: scale(2.5);
+  transition: transform 1s;
+}
+
+.div_pb1:hover {
+  transform: scale(2.5);
+  transition: transform 1s;
+}
